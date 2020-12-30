@@ -4,7 +4,9 @@ function preload(){
     bg = loadImage("assets/img/tv.jpeg");
 }
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    WIDTH = windowWidth;
+    HEIGHT = windowHeight;
+    createCanvas(WIDTH, HEIGHT);
 }
 function draw (){
     background(bg, 0, 0);

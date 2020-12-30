@@ -1,7 +1,7 @@
 var bg;
 
 function preload(){
-    bg = loadImage("assets/img/17.jpeg");
+    bg = loadImage("assets/img/tv.jpeg");
 }
 function setup() {
     createCanvas(windowWidth, windowHeight);
